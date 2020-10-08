@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta+Malar:300,700');
+
+body{
+  width: 100%;
+  min-height: 100vh;
+  background-color: white;
+  font-family: "Mukta Malar", sans-serif;
+}
+
+header{
+  background-image: url("images/header.jpg");
+}
+
+h1 {
+  color: silver;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* .wrapper{
+  width: 100%;
+  height: 100%;
+} */
+
+.header-container{
+  height: 153px;
+  display: grid;
+  /* grid-template-columns: 285px 1350px 285px; */
+  grid-template-columns: 14.84% 70.31% 14.84%;
+}
+
+.header-container1{
+  height: 153px;
+  display: grid;
+  grid-template-columns: 285px 1350px 285px;
+}
+
+.header-container2{
+  height: 153px;
+  display: grid;
+  grid-template-columns: 1fr 3.34fr 1fr;
+}
+
+.header-container3{
+  height: 153px;
+  display: flex;
+}
+
+.wrapper{
+  width: 100%;
+  background-color: blue;
+}
+
+.logo{
+  background-image: url("images/logo.jpg");
+}
+
+.title{
+  background-image: url("images/title.png");
+}
+
+.filler-transparent-white{
+  background-color: white;
+  opacity: 50%;
+}
+
+.nav-container{
+  height: 50px;
+  display: grid;
+  grid-template-columns: 14.84% 70.31% 14.84%;
+}
+
+.nav-container1{
+  height: 50px;
+  display: grid;
+  grid-template-columns: 285px 1350px 285px;
+}
+
+.nav-container3{
+  /* height: 50px; */
+  display: flex;
+}
+
+.nav{
+  background-color: black;
+  opacity: 60%;
+
+}
+
+.nav-text{
+  background-color: black;
+  opacity: 60%;
+  font-family: "Arial Black";
+  font-size: 18;
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+}
+
+ul{
+  list-style: none;
+}
+
+li{
+  float: left;
+  color: white;
+  opacity: 100%;
+  font-family: "Arial Black";
+  font-size: 18;
+  margin-left: 50px;
+}
+
+.body-container{
+  background-color: black;
+  display: flex;
+  /* display: grid;
+  grid-template-columns: 14.84% 70.31% 14.84%; */
+}
+
+.logoo{
+  flex: 1;
+}
+
+.header1{
+  flex: 4.74;
+}
+
+.header2{
+  background-color: white;
+  opacity: 50%;
+  flex: 1;
+}
+
+.header3{
+  flex: 1;
+}
+
+.nav3{
+  background-color: black;
+  opacity: 60%;
+  flex: 4.74;
+}
+
+.header4{
+  flex: 1;
+}
+
+.left-border{
+  flex: 1;
+}
+
+.artwork{
+  /* opacity: 0; */
+  background-color: white;
+  padding: 2.5em;
+  flex: 4.39;
+}
+
+.right-border{
+  flex: 1;
+}
+
+.profile-pic{
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-right: 1em;
+}
